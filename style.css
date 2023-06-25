@@ -62,6 +62,7 @@ header, .navbar{
     border-radius: 30px;
     border: 3px solid transparent;
     transition: .5s;
+    margin-top: 20px;
 }
 .main-btn:hover{
     text-decoration: none;
