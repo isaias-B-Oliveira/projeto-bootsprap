@@ -91,6 +91,8 @@ $(document).ready(function () {
 
 	});
 
+
+	//imagens parallax
 	setTimeout(function() {
 
 		$('#data-area').parallax({imageSrc:'img/cidadeparallax.png'});
