@@ -425,7 +425,7 @@ header, .navbar{
   
   }
   
-  
+  /*responsivo mobile*/
   @media(max-width: 425px) {
   
     /* slider */
