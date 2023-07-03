@@ -138,5 +138,40 @@ $(document).ready(function () {
 		};
 	};
 
+	//scrow para sesens
+	let navBtn = $('.nav-item');
+	let bannersection = $('#mainSlider');
+	let aboutsection = $('#about-area');
+	let servicesection = $('#services-area');
+	let teansection = $('#tean-area');
+	let portifoliosection = $('#portfolio-area');
+	let contactsection = $('#contact-area');
+
+	let scrollTO = '';
+
+	$(navBtn).click(function() {
+
+		let btnId = $(this).attr('id');
+		if(btnId == 'about-menu') {
+			scrollTO = aboutsection;
+		}else if(btnId == 'services-menu'){
+			scrollTO = servicesection;
+		}else if(btnId == 'tean-menu'){
+			scrollTO = teansection;
+		}else if(btnId == 'portfolio-menu'){
+			scrollTO = portifoliosection;
+		}else if(btnId == 'contact-menu'){
+			scrollTO = contactsection;
+		}else{
+			scrollTO = bannersection;
+		}
+
+		$([document.documentElement, document.body]).animate({
+			scrollTop: ($(scrollTO)).offset().top - 70
+		}, 1500);
+	
+	
+	});
+
 
 });
