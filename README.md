@@ -1,3 +1,3 @@
 ## projeto-bootsprap
-criado usando a biblioteca css/bootstrap e jquery para animacoens
+criado usando a biblioteca css/bootstrap e jquery para animaçoens
 ##
