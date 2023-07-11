@@ -36,8 +36,6 @@ $(document).ready(function () {
 		}
 	});
 
-	
-
 	let containerC = document.getElementById("circleC");
 
 	let circleC = new ProgressBar.Circle(containerC, {
@@ -138,7 +136,7 @@ $(document).ready(function () {
 		};
 	};
 
-	//scrow para sesens
+	//scrow para sesao:
 	let navBtn = $('.nav-item');
 	let bannersection = $('#mainSlider');
 	let aboutsection = $('#about-area');
