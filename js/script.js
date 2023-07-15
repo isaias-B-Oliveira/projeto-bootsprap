@@ -17,6 +17,8 @@ $(document).ready(function () {
 		}
 	});
 
+	
+
     
 	let containerB = document.getElementById("circleB");
 
