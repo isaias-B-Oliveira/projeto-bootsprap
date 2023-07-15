@@ -136,7 +136,7 @@ $(document).ready(function () {
 		};
 	};
 
-	//scrow para sesao: com efeito paralaxx:
+	//scrow para sesao: com efeito paralax:
 	let navBtn = $('.nav-item');
 	let bannersection = $('#mainSlider');
 	let aboutsection = $('#about-area');
