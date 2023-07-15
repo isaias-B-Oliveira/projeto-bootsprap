@@ -17,7 +17,6 @@ $(document).ready(function () {
 		}
 	});
 
-	
     
 	let containerB = document.getElementById("circleB");
 
@@ -99,8 +98,7 @@ $(document).ready(function () {
 	}, 250);
 
 
-	//filtro de portifolio
-
+	//filtro de portfolio
 	$('.filter-btn').on('click', function() {
 		let type = $(this).attr('id');
 		let boxes = $('.project-box');
